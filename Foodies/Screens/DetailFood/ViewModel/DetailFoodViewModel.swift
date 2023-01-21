@@ -44,8 +44,8 @@ class DetailFoodViewModel {
         return category
     }
     
-    func configureTags(model: FoodDetails) -> String {
-        let tags = model.strTags
-        return tags
+    func configureArea(model: FoodDetails) -> String {
+        let area = model.strArea
+        return area
     }
 }

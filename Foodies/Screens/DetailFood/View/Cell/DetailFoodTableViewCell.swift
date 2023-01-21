@@ -11,7 +11,7 @@ class DetailFoodTableViewCell: UITableViewCell {
 
     @IBOutlet weak var foodImage: UIImageView!
     @IBOutlet weak var categoryLabel: UILabel!
-    @IBOutlet weak var tagsLabel: UILabel!
+    @IBOutlet weak var fromLabel: UILabel!
     @IBOutlet weak var instructionLabel: UILabel!
     
     let viewModel = DetailFoodViewModel()
@@ -28,7 +28,7 @@ class DetailFoodTableViewCell: UITableViewCell {
         if let foodsDetailsModel = foodsDetailsModel {
             foodImage.downloaded(from: viewModel.configureImageUrl(model: foodsDetailsModel))
             categoryLabel.text = viewModel.configureCategory(model: foodsDetailsModel)
-            tagsLabel.text = viewModel.configureTags(model: foodsDetailsModel)
+            fromLabel.text = viewModel.configureArea(model: foodsDetailsModel)
             instructionLabel.text = viewModel.configureInstructions(model: foodsDetailsModel)
         }
     }

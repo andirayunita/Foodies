@@ -61,6 +61,7 @@ extension DetailFoodViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        print("start cell row at")
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! DetailFoodTableViewCell
         cell.setFoodDetailsData(foodsDetailsModel: detailFoodsData?.meals[indexPath.row])
         if detailFoodsData != nil { title = (detailFoodsData?.meals[indexPath.row].strMeal)}

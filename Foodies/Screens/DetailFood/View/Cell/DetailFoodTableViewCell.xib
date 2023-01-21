@@ -35,7 +35,7 @@
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tags" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSp-lC-SYq">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DSp-lC-SYq">
                         <rect key="frame" x="20" y="245.33333333333337" width="355" height="24"/>
                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                         <nil key="textColor"/>
@@ -89,8 +89,8 @@
             <connections>
                 <outlet property="categoryLabel" destination="hlQ-lr-pvy" id="4LN-Sh-lFv"/>
                 <outlet property="foodImage" destination="Fx3-N0-zw4" id="teI-qj-viP"/>
+                <outlet property="fromLabel" destination="3xP-T7-2XM" id="jeg-P5-Sha"/>
                 <outlet property="instructionLabel" destination="96Q-qB-r95" id="UNp-Jj-Elr"/>
-                <outlet property="tagsLabel" destination="3xP-T7-2XM" id="YOO-1h-7vb"/>
             </connections>
             <point key="canvasLocation" x="-83.206106870229007" y="123.94366197183099"/>
         </tableViewCell>
