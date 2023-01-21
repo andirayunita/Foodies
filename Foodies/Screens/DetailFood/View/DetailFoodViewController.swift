@@ -14,7 +14,6 @@ class DetailFoodViewController: UIViewController {
     var detailFoodsData: DetailFood?
     var idMeal: String = ""
     let viewModel = DetailFoodViewModel()
-    var delegate: DetailFoodViewController?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,9 +30,10 @@ class DetailFoodViewController: UIViewController {
     
     func getData() {
         viewModel.getFoodDetails(idMeal: idMeal) { [weak self] in
-            self?.detailFoodsData = self?.viewModel.detailFoodsModel
+            self?.detailFoodsData = (self?.viewModel.detailFoodsModel)!
             DispatchQueue.main.async { self?.detailFoodTableView.reloadData() }
         }
+        print("finally getData")
     }
 }
 
@@ -59,6 +59,6 @@ extension DetailFoodViewController: UITableViewDelegate, UITableViewDataSource {
 extension DetailFoodViewController: FoodListViewControllerDelegate {
     func getDataFoods(foodModel: FoodDetails) {
         print("getdatafood at detailfoodvc")
-        guard foodModel.idMeal != nil else { return }
+        guard foodModel.idMeal != "" else { return }
     }
 }
