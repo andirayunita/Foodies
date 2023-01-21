@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "FD6760B8-5C57-4434-A13E-4F50985F850C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74E8A6DF-40C2-4FE7-9E51-2DED2CEA0BED"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Foodies/Screens/DetailFood/View/DetailFoodViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A67B49E-5B05-4959-A525-83F73CD5B619"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Foodies/Screens/DetailFood/View/DetailFoodViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "tableView(_:numberOfRowsInSection:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C64A0C37-055E-4A2B-98E9-4CFCDAAD4587"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Foodies/Screens/DetailFood/View/DetailFoodViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "getData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C64A0C37-055E-4A2B-98E9-4CFCDAAD4587 - 4af88f5e735b4fee"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Foodies.DetailFoodViewController.getData() -&gt; ()"
+                  moduleName = "Foodies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Foodies/Foodies/Foodies/Screens/DetailFood/View/DetailFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "C64A0C37-055E-4A2B-98E9-4CFCDAAD4587 - 25f96094654e461a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in Foodies.DetailFoodViewController.getData() -&gt; ()"
+                  moduleName = "Foodies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Foodies/Foodies/Foodies/Screens/DetailFood/View/DetailFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "C64A0C37-055E-4A2B-98E9-4CFCDAAD4587 - 761981abc57ae92"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 () -&gt; () in Foodies.DetailFoodViewController.getData() -&gt; ()"
+                  moduleName = "Foodies"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Foodies/Foodies/Foodies/Screens/DetailFood/View/DetailFoodViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
