@@ -76,12 +76,12 @@
 		5E79C4D2297A95F3003DFE8F /* Foodies */ = {
 			isa = PBXGroup;
 			children = (
-				5E79C4E8297A9775003DFE8F /* Screens */,
-				5E79C4E7297A9767003DFE8F /* Extensions */,
+				5E79C4E1297A95F5003DFE8F /* Info.plist */,
 				5E79C4D3297A95F3003DFE8F /* AppDelegate.swift */,
 				5E79C4DC297A95F5003DFE8F /* Assets.xcassets */,
+				5E79C4E7297A9767003DFE8F /* Extensions */,
 				5E79C4DE297A95F5003DFE8F /* LaunchScreen.storyboard */,
-				5E79C4E1297A95F5003DFE8F /* Info.plist */,
+				5E79C4E8297A9775003DFE8F /* Screens */,
 			);
 			path = Foodies;
 			sourceTree = "<group>";

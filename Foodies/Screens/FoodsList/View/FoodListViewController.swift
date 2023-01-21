@@ -7,17 +7,11 @@
 
 import UIKit
 
-protocol FoodListViewControllerDelegate {
-    func getDataFoods(foodModel: FoodDetails)
-}
-
 class FoodListViewController: UIViewController {
 
     @IBOutlet weak var foodListTableView: UITableView!
     
     var infoMeal = [Meal]()
-    var delegate: FoodListViewControllerDelegate?
-    let detailFoodViewController = DetailFoodViewController()
     var viewModel = FoodListViewModel()
     var foodsData: Foods?
     var cellTapped: Int?
@@ -63,11 +57,9 @@ extension FoodListViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("You selected cell #\(indexPath.row)!")
         let cellTapped = indexPath.row
-//        DetailFoodViewController.idMeal = infoMeal[cellTapped!].idMeal
-//        foodListTableView.deselectRow(at: foodListTableView.indexPathForSelectedRow!, animated: true)
-        delegate?.getDataFoods(foodModel: try! FoodDetails.init(from: infoMeal[cellTapped].idMeal as! Decoder))
+        print("You selected cell #\(cellTapped)!")
+        let detailFoodViewController = DetailFoodViewController(idMeal: infoMeal[cellTapped].idMeal)
         navigationController?.pushViewController(detailFoodViewController, animated: true)
     }
     
